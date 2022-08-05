@@ -1,0 +1,8 @@
+baseURL = "http://website-higo-tinho.s3-website-us-east-1.amazonaws.com/"
+languageCode = 'en-us'
+title = 'CD website Hugo Tinho'
+theme = "Papermod"
+
+[[deployment.targets]]
+name = "awsbucket"
+URL = "s3://website-higo-tinho/?region=us-east-1" #your bucket here
